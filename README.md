@@ -25,19 +25,6 @@ I'm an **AI/ML Engineer** passionate about developing intelligent systems that s
 
 ---
 
-## 💼 Professional Journey
-
-**Current Focus:** Developing enterprise-grade ML pipelines and deploying AI models at scale
-
-**Expertise Areas:**
-- Machine Learning & Deep Learning
-- Natural Language Processing (NLP)
-- Computer Vision
-- Time Series Analysis
-- Data Engineering & MLOps
-
----
-
 ## 🛠️ Tech Stack
 
 ### 🐍 **Languages**
@@ -48,6 +35,11 @@ I'm an **AI/ML Engineer** passionate about developing intelligent systems that s
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=flat)
+
+### **AI & LLM**
+![Google Gemini](https://img.shields.io/badge/-Google%20Gemini%20API-4285F4?logo=google&logoColor=white&style=flat-square)
+![MCP Protocol](https://img.shields.io/badge/-Model%20Context%20Protocol-6B4CE0?style=flat-square)
+![MongoDB](https://img.shields.io/badge/-MongoDB-13AA52?logo=mongodb&logoColor=white&style=flat-square)
 
 ### 📊 **Data & Visualization**
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat)
