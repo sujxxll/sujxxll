@@ -3,7 +3,6 @@
 # 👋 Sujal Patil - AI/ML Engineer
 
 [![Gmail Badge](https://img.shields.io/badge/-sujal112017@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white)](mailto:sujal112017@gmail.com)
-[![Phone Badge](https://img.shields.io/badge/-7709425175-34C749?style=flat-square&logo=WhatsApp&logoColor=white)](tel:7709425175)
 [![GitHub followers](https://img.shields.io/github/followers/sujxxll?logo=GitHub&style=flat-square)](https://github.com/sujxxll)
 
 **Transforming Data into Intelligence | Building ML Solutions That Matter**
@@ -44,14 +43,11 @@ I'm an **AI/ML Engineer** passionate about developing intelligent systems that s
 ### 🐍 **Languages**
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
 ![SQL](https://img.shields.io/badge/-SQL-336791?logo=postgresql&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
 
 ### 🤖 **ML/DL Frameworks**
 ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=flat)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=flat)
 ![Scikit-learn](https://img.shields.io/badge/-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=flat)
-![Keras](https://img.shields.io/badge/-Keras-D00000?logo=keras&logoColor=white&style=flat)
 
 ### 📊 **Data & Visualization**
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white&style=flat)
@@ -68,78 +64,141 @@ I'm an **AI/ML Engineer** passionate about developing intelligent systems that s
 ### 🛠️ **Tools & Platforms**
 - **IDEs**: VS Code, PyCharm, Jupyter Notebook
 - **Databases**: MySQL, PostgreSQL, MongoDB
-- **APIs**: REST, GraphQL
-- **CI/CD**: GitHub Actions, Jenkins
+- **APIs**: FastAPI
+- **CI/CD**: GitHub Actions
 
 ---
 
-## 📚 Featured Projects
+## 🚀 Featured Projects
 
-### 🎯 **1. [Advanced ML Pipeline Architecture](https://github.com/sujxxll/ml-pipeline-architecture)**
-*Production-ready machine learning pipeline with data preprocessing, model training, and evaluation*
+### 🏥 **[Healthcare Triage & Appointment System](https://github.com/sujxxll/Hospital-chatbot)**
+*AI-powered conversational healthcare assistant with symptom assessment and appointment booking*
 
-**Tech Stack:** Python, TensorFlow, AWS, Docker  
+**Tech Stack:** Python, Google Gemini 2.5 Flash, MongoDB, Gradio  
 **Key Features:**
-- ✅ Automated data pipeline with validation
-- ✅ Hyperparameter tuning using Optuna
-- ✅ Model versioning and tracking (MLflow)
-- ✅ Real-time prediction API
+- ✅ Multi-turn symptom assessment with state machine (9 states)
+- ✅ Intelligent severity classification (Critical/Moderate/Mild)
+- ✅ Automated department routing (14 healthcare departments)
+- ✅ Appointment booking & persistence (MongoDB)
+- ✅ Emergency detection & escalation
+- ✅ Real-time triage status sidebar
+- ✅ Beautiful UI with custom Gradio components
 
-**Impact:** Reduced model training time by 40%, improved accuracy to 94.7%
+**Architecture Highlights:**
+- State-based conversation flow management
+- LLM-powered medical intent recognition
+- Structured JSON parsing for appointments
+- HIPAA-compliant design patterns
+
+**Live Impact:** Production-ready healthcare assistant with emergency handling
 
 ---
 
-### 🧠 **2. [NLP Sentiment Analysis Engine](https://github.com/sujxxll/nlp-sentiment-analysis)**
-*Deep learning model for multi-class sentiment classification*
+### 📊 **[TransferDocs - Student Results Analytics Platform](https://github.com/sujxxll/TransferDocs)**
+*AI-driven system for automated academic result extraction, trend analysis, and natural language querying*
 
-**Tech Stack:** PyTorch, Transformers, FastAPI  
+**Tech Stack:** Python, Google Gemini API, MongoDB, Streamlit, FastAPI, PyPDF2, Plotly  
 **Key Features:**
-- ✅ BERT-based classification model
-- ✅ Real-time sentiment analysis
-- ✅ Visualization dashboard
-- ✅ Multi-language support
+- ✅ **Intelligent PDF Processing:** Automated extraction of student data from academic result PDFs using Google Gemini
+- ✅ **Subject-wise Breakdown:** Extracts detailed subject marks, grades, and GPA information
+- ✅ **Interactive Analytics Dashboard:** 
+  - Pass/Fail distribution charts
+  - CGPA distribution histograms
+  - Class average metrics
+  - Performance statistics
+- ✅ **AI Chatbot for Data Queries:** Natural language interface to query student data
+  - "Who got the highest marks in Physics?"
+  - "List all students who failed"
+  - "How much did [Student] score?"
+- ✅ **MongoDB Backend:** Efficient storage and retrieval of processed data
+- ✅ **Case-insensitive searches:** Regex-based MongoDB queries for flexibility
 
-**Impact:** Processed 100K+ reviews with 92% accuracy
+**Technical Achievements:**
+- Gemini vision API for OCR and data extraction
+- Gemini NLP for converting natural language → MongoDB queries
+- Real-time dashboard updates with Plotly visualization
+- Secure temp file handling for user uploads
+- 20-minute timeout for large PDF processing
+
+**Real-World Use Case:** Educational institutions, result analysis, student performance tracking
 
 ---
 
-### 👁️ **3. [Computer Vision Object Detection](https://github.com/sujxxll/cv-object-detection)**
-*Efficient object detection using YOLO architecture*
+### 📚 **[FastAPI Course Management System](https://github.com/sujxxll/fastapi)**
+*RESTful API for course browsing, chapter retrieval, and community ratings*
 
-**Tech Stack:** OpenCV, TensorFlow, Python  
+**Tech Stack:** FastAPI, MongoDB, Python, Docker  
 **Key Features:**
-- ✅ Real-time video stream processing
-- ✅ Custom object detection model
-- ✅ Performance optimization
-- ✅ Web interface for inference
+- ✅ **Course Listing** with sorting (by date, rating, alphabetical)
+- ✅ **Domain Filtering** for subject-specific course discovery
+- ✅ **Chapter-level Access** with detailed content delivery
+- ✅ **Community Rating System** (1-to-5 scale on courses & chapters)
+- ✅ **Aggregate Ratings:** Automatic computation of course ratings from chapter ratings
+- ✅ **Error Handling:** Proper HTTP status codes (404 for missing resources)
+- ✅ **Comprehensive Test Suite:** 110+ test cases covering all endpoints
+- ✅ **Docker Support:** Ready for containerized deployment
 
-**Impact:** Achieved real-time inference at 30+ FPS
+**API Endpoints:**
+```
+GET  /courses              → List all courses with filters & sorting
+GET  /courses/{id}        → Get course details
+GET  /courses/{id}/{ch}   → Get specific chapter content
+POST /courses/{id}/{ch}   → Rate a chapter (-1, 0, 1)
+```
+
+**Test Coverage:**
+- Sorting by date, rating, alphabetical order
+- Domain-based filtering
+- Course/chapter existence validation
+- Rating aggregation logic
+- Edge case handling
+
+**Why It Matters:** Production-grade API with comprehensive testing and monitoring
 
 ---
 
-### 📈 **4. [Time Series Forecasting Dashboard](https://github.com/sujxxll/time-series-forecasting)**
-*LSTM-based forecasting with interactive visualization*
 
-**Tech Stack:** PyTorch, Flask, Plotly  
+### 🔌 **[Hybrid MCP + REST Server](https://github.com/sujxxll/MCPProject)**
+*Protocol-agnostic server implementing Model Context Protocol (MCP) with REST API fallback*
+
+**Tech Stack:** Python, Starlette, MCP Protocol, Uvicorn, SSE  
 **Key Features:**
-- ✅ LSTM/GRU time series models
-- ✅ Trend analysis and decomposition
-- ✅ Interactive dashboard
-- ✅ Accuracy metrics visualization
+- ✅ **Dual Protocol Support:** Both MCP and REST endpoints in single server
+- ✅ **Model Context Protocol (MCP):** Industry-standard LLM integration protocol
+- ✅ **Server-Sent Events (SSE):** Real-time bidirectional communication
+- ✅ **Shared Business Logic:** Single codebase serves both protocols
+- ✅ **Tool Discovery:** Dynamic tool listing via MCP
+- ✅ **CORS Enabled:** Cross-origin support for web clients
+- ✅ **Deployment Ready:** Works on Render, Heroku, AWS, etc.
 
-**Impact:** RMSE reduced by 35% compared to baseline
+**Architecture Highlights:**
+- Separation of concerns: Business logic, REST handlers, MCP handlers
+- SSE transport for lightweight real-time communication
+- Request validation with standardized JSON schemas
+- Environment-based port configuration
 
----
+**Innovation:** Demonstrates protocol abstraction—switch between MCP and REST without code changes
 
-## 📊 GitHub Statistics
+**Real-World Use Case:** LLM applications, Claude integration, tool servers, AI agents
 
-<div align="center">
+**Example Tools:**
+```
+- add(a, b) → Returns a + b
+- multiply(a, b) → Returns a × b
+```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sujxxll&show_icons=true&theme=radical&hide_border=true&include_all_commits=true)
+**REST Endpoints:**
+```
+POST /tools/add              → Add two numbers
+POST /tools/multiply        → Multiply two numbers
+GET  /health                → Server health check
+```
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sujxxll&theme=radical&hide_border=true&layout=compact)
-
-</div>
+**MCP Endpoints:**
+```
+GET  /sse                   → SSE transport (MCP protocol)
+POST /messages              → Message handling
+```
 
 ---
 
