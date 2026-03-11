@@ -7,7 +7,7 @@
 
 **Transforming Data into Intelligence | Building ML Solutions That Matter**
 
-[Portfolio](#-featured-projects) • [Skills](#-tech-stack) • [Experience](#-professional-journey)
+[Portfolio](#-featured-projects) 
 
 </div>
 
